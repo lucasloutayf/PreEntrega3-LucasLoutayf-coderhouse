@@ -23,6 +23,7 @@
         }
         img {
             @include imagenes (100%, 100%, cover);
+            max-height: 500px;
         }
     }
 }
