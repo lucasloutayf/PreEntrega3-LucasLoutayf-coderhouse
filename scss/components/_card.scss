@@ -13,6 +13,7 @@
             margin: 10px; 
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
             border-radius: 8px;
+            height: 1200px;
             div {
                 padding: 10px;
                 display: flex;
@@ -42,6 +43,7 @@
                 border-radius: 8px;
                 margin-top: 10px;
                 background-color: $color-gray;
+                max-height: 1000px;
             }
             &:hover {
                 transform: scale(1.02);

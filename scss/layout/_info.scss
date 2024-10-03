@@ -1,0 +1,25 @@
+.section__estudio {
+    margin: 15px;
+    margin-bottom: 50px;
+    .div__estudio {
+        background-color: #fff;
+        @include flex (column, center, center, 0px);
+        margin: 20px;
+        border-radius: 8px;
+        .text__estudio {
+            text-align: center;
+            padding: 0 10px;
+            font-size: 16px;
+            font-weight: 500;
+            font-family: "Poppins", sans-serif;
+        }
+        .title__estudio {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 7px;
+            margin-top: 10px;
+            font-weight: 700;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+}
